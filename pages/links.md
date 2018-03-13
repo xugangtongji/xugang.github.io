@@ -9,7 +9,9 @@ permalink: /links/
 ---
 
  >你证明我的存在：
+ > 
  > 如果我不认识你，我没活过；
+ > 
  > 如果至死不认识你，我没死，因为我没活过。
  
 {% for link in site.data.links %}

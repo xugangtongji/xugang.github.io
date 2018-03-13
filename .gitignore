@@ -5,3 +5,15 @@ _site/
 *~
 .DS_Store
 Gemfile.lock
+
+.sync/*
+
+.me_configs.data
+
+.z_sync_configs.data
+
+sync_changes.log
+
+sync_hook.script
+
+**/.Archive
