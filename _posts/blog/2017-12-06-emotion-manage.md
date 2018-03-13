@@ -3,6 +3,7 @@ layout: post
 title: 情绪管理的建议
 categories: 随笔
 description: 个人对情绪管理上的一些好的建议的总结。
+comments: false
 keywords: 情绪管理
 ---
 
