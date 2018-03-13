@@ -1,0 +1,20 @@
+- name: Programming Language
+  keywords:
+      - C/C++
+      - Python
+      - Matlab
+      - Labview
+
+- name: Computer Vison
+  keywords:
+      - Camera Geometry
+      - Image Processing
+      - Image Feature
+      - Deep Learning(caffe)
+
+- name: Machine Learning
+  keywords:
+      - Ramdom Forest
+      - Xgboost Adaboost
+      - SVM
+      - PCA
