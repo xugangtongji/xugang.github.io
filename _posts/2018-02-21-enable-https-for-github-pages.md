@@ -2,6 +2,7 @@
 layout: post
 title: 为绑定域名的 GitHub Pages 启用 HTTPS
 categories: GitHub
+comments: false
 description: 为绑定域名的 GitHub Pages 添加免费、自动续期的 SSL 证书，简单几步开启 HTTPS，添加小绿锁。
 keywords: GitHub Pages, SSL, Let's Encrypt
 ---

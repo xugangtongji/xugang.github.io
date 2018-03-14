@@ -4,6 +4,7 @@ title: 如何有效使用 GitHub
 categories: GitHub
 description: 使用 GitHub 的频度很高，但是否有效利用了这个好东西？
 keywords: GitHub
+comments: false
 ---
 
 这是一个知乎问题下我的回答，原帖[传送门][1]。

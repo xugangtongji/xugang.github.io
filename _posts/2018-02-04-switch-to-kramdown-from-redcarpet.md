@@ -4,6 +4,7 @@ title: 将 GitHub Pages 从 Redcarpet 切换到 kramdown
 categories: Markdown
 description: 从 Redcarpet 切换到 kramdown 会遇到一些问题，这里记录了它们的解决办法。
 keywords: GitHub Pages, markdown, Redcarpet, kramdown
+comments: false
 ---
 
 GitHub 前不久发布了 New Features 公告，[GitHub Pages now faster and simpler with Jekyll 3.0][1]，宣布从 2016 年 5 月 1 日起，GitHub Pages 将只支持 kramdown 作为唯一的 Markdown 引擎。

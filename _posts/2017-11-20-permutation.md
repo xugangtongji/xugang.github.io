@@ -4,6 +4,7 @@ title: 简单的全排列算法实现
 categories: 算法&数据结构
 description: 一种使用递归思路实现的简易全排列算法。
 keywords: 算法, 全排列, 递归
+comments: false
 ---
 
 ### 问题描述
