@@ -7,8 +7,6 @@ keywords: GitHub
 comments: false
 ---
 
-这是一个知乎问题下我的回答，原帖[传送门][1]。
-
 ## 前言
 
 GitHub 是很多「modern」程序员使用频度很高的网站，但各人从中汲取的养分不同。有的人借助它的力量扬名立万成为一代大神；有的人迷失其中，天天在其中流连却成长有限。
@@ -26,8 +24,6 @@ GitHub 是很多「modern」程序员使用频度很高的网站，但各人从�
 **好习惯**
 
 * 将 GitHub Pages 作为写博客的工具，能使用 Markdown 专注于内容。
-
-* Follow 了一些 Android 领域的牛人，经常关注他们关注的东西。
 
 **坏习惯**
 
@@ -59,9 +55,3 @@ GitHub 是很多「modern」程序员使用频度很高的网站，但各人从�
 
    **tip:** 提 Issues 和 Pull Request 先阅读一下项目里的 CONTRIBUTING，遵循项目的规范。
 
-7. 如果可以，发动你身边的朋友们跟你一起用起来，有适当的好友互动会更有趣。
-
-   **tip:** 不要把它玩成了纯社交，不停刷 timeline 那就不如玩朋友圈了。[@mzlogin][2]，欢迎互动。
-
-[1]: https://www.zhihu.com/question/21248859/answer/93859653
-[2]: https://github.com/mzlogin

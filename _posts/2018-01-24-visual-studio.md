@@ -7,7 +7,6 @@ keywords: Visual Studio
 comments: false
 ---
 
-地球上最好用的 C++ 开发环境，没有之一。现在也有免费的社区版了，可惜以前密集写 C++ 代码的时候没赶上。
 
 ## 快捷键
 
