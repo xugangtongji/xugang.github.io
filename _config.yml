@@ -77,7 +77,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: xugangtongji/xugangtongji.github.io
 
 # ---------------- #
 #      Comments    #
@@ -119,3 +119,4 @@ simple_jekyll_search:
 # ---------------- #
 google:
     analytics_id: UA-80669434-1
+
