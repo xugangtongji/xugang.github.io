@@ -34,17 +34,21 @@ california_housing_dataframe = pd.read_csv("https://storage.googleapis.com/mledu
 california_housing_dataframe.describe()   #显示数据的样本数、均值、标准偏差、最大值、最小值和各种分位数。
 california_housing_dataframe.head()     #只显示前几行数据
 ```
+
 <center>
 ![](http://p5iojc2zy.bkt.clouddn.com/_posts/_image/2018-03-19-19-56-38.jpg)
 </center>
+
 数据索引和修改操作类似List，Dict，详见[文档](http://pandas.pydata.org/pandas-docs/stable/indexing.html)
 
 apply 是 pandas 库的一个很重要的函数，多和 groupby 函数一起用，也可以直接用于 DataFrame 和 Series 对象。主要用于数据聚合运算，可以很方便的对分组进行现有的运算和自定义的运算。
+
 ```PY
 >>> cities['City name'].apply(lambda name: name.startswith('San')
 >>> #对cities中的"City name"进行列操作，判断str是否以“san”开头(不是以/t为截止)
 "startswith" same as "endswith"
 ```
+
 以下代码向现有 DataFrame 添加了两个 Series：
 
 ```py
