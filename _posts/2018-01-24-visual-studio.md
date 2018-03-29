@@ -1,11 +1,15 @@
 ---
 layout: wiki
 title: Visual Studio
-categories: Tools
+categories: 工具
 description: Visual Studio 快捷键和小技巧。
 keywords: Visual Studio
 comments: false
 ---
+## “类视图”和“对象浏览器”图标
+
+
+![](http://p5iojc2zy.bkt.clouddn.com/_posts/_image/2018-03-27-23-29-53.jpg)
 
 
 ## 快捷键
@@ -33,7 +37,7 @@ comments: false
 | 设置断点            | F9        |
 | 步过                | F10       |
 | 步入                | F11       |
-
+| 查找引用            | F8        |
 ## 插件
 
 * [Go To Definition](https://marketplace.visualstudio.com/items?itemName=NoahRichards.GoToDefinition)
