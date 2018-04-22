@@ -23,5 +23,5 @@ mathjax: true
 
 discriminative model 和generative model的区别。前者是判断式模型，后者是生产式模型。就好比一个人，既不懂西班牙语也不懂法语，怎么区别这两种语言呢？判断式模型就是这个人在分别听过西班牙语和法语后，再听这两种语言时，便能判断出是哪一种；而产生式模型就是这个人得系统学习这两种语言的语法音标，那么区别这两种语言自然不在话下。
 
-- 判别模型Discriminative Model，又可以称为条件模型，或条件概率模型。估计的是条件概率分布(conditional distribution)， p(class|context)。
-- 生成模型Generative Model，又叫产生式模型。估计的是联合概率分布（joint probability distribution），p(class,context)=p(class|context)∗p(context)。
+- 判别模型Discriminative Model，又可以称为条件模型，或条件概率模型。估计的是条件概率分布(conditional distribution)， p(class\|context)。
+- 生成模型Generative Model，又叫产生式模型。估计的是联合概率分布（joint probability distribution），p(class,context)=p(class\|context)∗p(context)。
