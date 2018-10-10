@@ -1,6 +1,6 @@
 ---
 layout: links
-title: links Template
+title: Links Template
 categories: [cate1, cate2]
 description: some word here
 comments: false
