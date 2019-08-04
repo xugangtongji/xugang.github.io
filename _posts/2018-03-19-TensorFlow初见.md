@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 和TensorFlow的第一次约会
-categories: tensorflow
+categories: 计算机视觉
 comments: false
 description: google机器学习
 keywords: tensorflow

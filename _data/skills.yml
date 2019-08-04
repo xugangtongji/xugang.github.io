@@ -10,11 +10,10 @@
       - Camera Geometry
       - Image Processing
       - Image Feature
-      - Deep Learning(caffe)
+      - Deep Learning(caffe、pytorch)
 
 - name: Machine Learning
   keywords:
       - Ramdom Forest
       - Xgboost Adaboost
       - SVM
-      - PCA
