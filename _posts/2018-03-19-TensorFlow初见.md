@@ -9,7 +9,7 @@ mathjax: true
 ---
 
 
-![](http://p5iojc2zy.bkt.clouddn.com/_posts/_image/2018-03-19-19-30-03.jpg)
+![](/images/blog/2018-03-19-19-30-03.jpg)
 
 #### tf.estimator API 高层次
 使用 tf.estimator 会大大减少代码行数。

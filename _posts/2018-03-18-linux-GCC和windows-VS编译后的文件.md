@@ -1,7 +1,7 @@
 ---
 layout: post
 title: linux-GCC和windows-VS编译程序
-categories: 计算机系统
+categories: 工具
 comments: false
 description: 书籍
 keywords: 编译

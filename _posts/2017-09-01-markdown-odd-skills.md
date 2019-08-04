@@ -13,6 +13,184 @@ comments: false
 
 *注：如下技巧大多是利用 Markdown 兼容部分 HTML 标签的特性来完成，不一定在所有网站和软件里都完全支持，主要以 GitHub 支持为准。*
 
+
+**目录**
+
+* TOC
+{:toc}
+
+### 超链接
+
+```
+[靠谱-ing](http://xugang.ink)
+
+<http://xugang.ink>
+```
+
+[靠谱-ing](http://xugang.ink)
+
+<http://xugang.ink>
+
+### 列表
+
+```
+1. 有序列表项 1
+
+2. 有序列表项 2
+
+3. 有序列表项 3
+```
+
+1. 有序列表项 1
+
+2. 有序列表项 2
+
+3. 有序列表项 3
+
+```
+* 无序列表项 1
+
+* 无序列表项 2
+
+* 无序列表项 3
+```
+
+* 无序列表项 1
+
+* 无序列表项 2
+
+* 无序列表项 3
+
+- [x] 任务列表 1
+- [ ] 任务列表 2
+
+### 强调
+
+```
+~~删除线~~
+
+**加黑**
+
+*斜体*
+```
+
+~~删除线~~
+
+**加黑**
+
+*斜体*
+
+### 标题
+
+```
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+```
+
+Tips: `#` 与标题中间要加空格。
+
+### 表格
+
+```
+| HEADER1 | HEADER2 | HEADER3 | HEADER4 |
+| ------- | :------ | :-----: | ------: |
+| content | content | content | content |
+```
+
+| HEADER1 | HEADER2 | HEADER3 | HEADER4 |
+| ------- | :------ | :-----: | ------: |
+| content | content | content | content |
+
+1. :----- 表示左对齐
+2. :----: 表示中对齐
+3. -----: 表示右对齐
+
+### 代码块
+
+```python
+print 'Hello, World!'
+```
+
+1. list item1
+
+2. list item2
+
+   ```python
+   print 'hello'
+   ```
+
+### 图片
+
+```
+![本站favicon](/favicon.ico)
+```
+
+![本站favicon](/favicon.ico)
+
+### 锚点
+
+```
+* [目录](#目录)
+```
+
+* [目录](#目录)
+
+### Emoji
+
+:camel:
+:blush:
+:smile:
+
+### Footnotes
+
+This is a text with footnote[^1].
+
+### mermaid
+
+<div class="mermaid">
+sequenceDiagram
+    Alice-->>John: Hello John, how are you?
+    John-->>Alice: Great!
+</div>
+
+### sequence
+
+```sequence
+Andrew->China: Says Hello
+Note right of China: China thinks\nabout it
+China-->Andrew: How are you?
+Andrew->>China: I am good thanks!
+```
+
+### flowchart
+
+```flow
+st=>start: Start
+e=>end
+op1=>operation: My Operation
+sub1=>subroutine: My Subroutine
+cond=>condition: Yes
+or No?
+io=>inputoutput: catch something...
+
+st->op1->cond
+cond(yes)->io->e
+cond(no)->sub1(right)->op1
+```
+
+### mathjax
+
+When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+[^1]: Here is the footnote 1 definition.
+
+
 ## 在表格单元格里换行
 
 借助于 HTML 里的 `<br />` 实现。
@@ -214,11 +392,7 @@ N 与图片高度有关。
 
 如果你使用其它编辑器，一般也能找到对应的解决方案，比如 Atom 编辑器的 [markdown-toc](https://atom.io/packages/markdown-toc) 插件，Sublime Text 的 [MarkdownTOC](https://packagecontrol.io/packages/MarkdownTOC) 插件等。
 
-## 后话
 
-好了，这一波的奇技淫巧就此告一段落，希望大家在了解这些之后能有所收获，更好地排版，专注写作。
-
-如果你觉得本文对你有帮助，欢迎关注我的微信公众号 isprogrammer，获取更多有帮助的内容。
 
 ## 参考
 

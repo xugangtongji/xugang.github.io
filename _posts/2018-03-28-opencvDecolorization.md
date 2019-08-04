@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 不损失颜色的灰度化方法
-categories: opencv
+categories: 计算机视觉
 comments: false
 description: 
 keywords: opencv
@@ -9,7 +9,7 @@ mathjax: true
 ---
 
 
-![](http://p5iojc2zy.bkt.clouddn.com/_posts/_image/2018-03-28-10-46-43.jpg)
+![](/images/blog/2018-03-28-10-46-43.jpg)
 
 OpenCV和Matlab中灰度化的方法都非常简单：
 
@@ -37,4 +37,4 @@ int main()
 ```
 
 
-![](http://p5iojc2zy.bkt.clouddn.com/_posts/_image/2018-03-28-10-48-30.jpg)
+![](/images/blog/2018-03-28-10-48-30.jpg)

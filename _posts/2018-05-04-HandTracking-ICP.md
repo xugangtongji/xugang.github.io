@@ -4,19 +4,19 @@ title: 手部跟踪基于点云匹配的方法
 categories: 计算机视觉
 comments: false
 description: 
-keywords: 论文
+keywords: 论文、手势识别
 mathjax: true
 ---
 
 ## Robust Articulated-ICP for Real-Time Hand Tracking
-github [code](https://github.com/OpenGP/htrack)
+[github 地址](https://github.com/OpenGP/htrack)
 
 windows10 编译太痛苦了，还是ubuntu大法好。注意依赖库的32/64位区别，debug和release的区别，不同版本，opencv特别注意，注意Cmake使用的编译器gcc和g—++版本统一。cuda7改cuda8。另外的难点就是相机的接口和SDK。Creative Senz3D测试通过，这相机已经很老了，win10已经不持支了，ubuntu使用的是DepthSenseGrabber，需要#include <DepthSense.hxx>这个是从sony官网下载的，重新编译过的。
 
 
 3D点云匹配+时间运动先验+骨骼先验（data driven）
 
-![](http://p5iojc2zy.bkt.clouddn.com/_posts/_image/2018-05-08-14-57-32.jpg)
+![](/images/blog/2018-05-08-14-57-32.jpg)
 
 主要贡献点：
 	1. 将数据驱动的骨骼先验融合到了实时tracking的模块里
@@ -101,7 +101,7 @@ PSO中，每个优化问题的解都是搜索空间中的一只鸟。我们称�
 ICP算法能够使不同的坐标下的点云数据合并到同一个坐标系统中，首先是找到一个可用的变换，配准操作实际是要找到从坐标系1到坐标系2的一个刚性变换。
 
 <center>
-![](http://p5iojc2zy.bkt.clouddn.com/_posts/_image/2018-09-09-11-00-12.jpg)
+![](/images/blog/2018-09-09-11-00-12.jpg)
 </center>
 
 假设给两个三维点集 X1 和 X2，ICP方法的配准步骤如下：
