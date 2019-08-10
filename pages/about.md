@@ -32,7 +32,9 @@ permalink: /about/
 - 邮箱：1631558@tongji.edu.cn 
 - 知乎：@徐之谓
 - Github：@xugangtongji
-- 微信：@Hsu
+- 微信公众号：@徐心智EDU
+
+
 
 ## Skill Keywords
 
