@@ -28,9 +28,9 @@ mathjax: true
 
 ##### 方法1
 
-```mathjax
+$$
 Loss = k·MSE_{reg}+(1-k)CrossEntropy_{clc}
-```
+$$
 
 经过实验，这种方法比固定一个网络去训练另一个要简单一些，就是这个系数需要根据训练过程去调整。对于两个数据集标注类型不同，输入不同。这个需要对齐。
 
@@ -58,6 +58,5 @@ for i in range(iterations):
 - 整体网络由三个子网络级联组成。处理流程为：1.金字塔。2.Proposal Network(P-Net)、Refine Network(R-Net)、Output Network(O-Net)
 ![](http://www.sfinst.com/wp-content/uploads/2018/12/6-1.jpg)
 ![](/images/blog/2019-08-12-20-37-13.jpg)
-
 
 
